@@ -2,7 +2,7 @@
   "expo": {
     "name": "Жёлудь",
     "slug": "acorn",
-    "version": "1.0.0",
+    "version": "1.0.4",
     "orientation": "portrait",
     "icon": "./assets/icon.png",
     "userInterfaceStyle": "light",
@@ -25,6 +25,14 @@
     },
     "web": {
       "favicon": "./assets/logo.png"
+    },
+    "extra": {
+      "eas": {
+        "projectId": "adca32f9-836d-4f54-abda-628efa4279d2"
+      }
+    },
+    "ios": {
+      "bundleIdentifier": "com.dimrio323.acorn"
     }
   }
 }
