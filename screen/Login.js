@@ -58,8 +58,7 @@ function Login({ navigation }) {
 								.string()
 								.min(8, "Пароль должен содержать не мении 8 символов.")
 								.max(16, "Пароль не должен превышать 16 символов.")
-								.required("Поле обязательное")
-								.matches(/(?=.*[0-9])(?=.*[a-z])(?=.*[A-Z])/g, "Допустимые символы: a-z, A-Z, цифры"),
+								.required("Поле обязательное"),
 						})}
 					>
 						{({ values, handleChange, errors, setFieldTouched, touched, isValid, handleSubmit }) => (
