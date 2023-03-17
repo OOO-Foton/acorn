@@ -2,7 +2,7 @@
   "expo": {
     "name": "Жёлудь",
     "slug": "acorn",
-    "version": "1.0.4",
+    "version": "1.1.1",
     "orientation": "portrait",
     "icon": "./assets/icon.png",
     "userInterfaceStyle": "light",
@@ -14,25 +14,20 @@
     "updates": {
       "fallbackToCacheTimeout": 0
     },
-    "assetBundlePatterns": [
-      "**/*"
-    ],
+    "assetBundlePatterns": ["**/*"],
     "android": {
       "adaptiveIcon": {
         "foregroundImage": "./assets/iconA.png",
         "backgroundColor": "#FFFFFF"
-      }
+      },
+      "package": "com.sergeybaskakov.acorn",
+      "versionCode": 4
     },
-    "web": {
-      "favicon": "./assets/logo.png"
-    },
+    "owner": "sergeybaskakov",
     "extra": {
       "eas": {
-        "projectId": "adca32f9-836d-4f54-abda-628efa4279d2"
+        "projectId": "7bd6ed91-3d3c-417c-bcbf-dfc60e018466"
       }
-    },
-    "ios": {
-      "bundleIdentifier": "com.dimrio323.acorn"
     }
   }
 }
